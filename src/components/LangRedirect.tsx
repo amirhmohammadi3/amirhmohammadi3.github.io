@@ -11,15 +11,16 @@ function preferredLocale(): Locale {
   } catch {
     /* storage unavailable */
   }
-  const nav = (navigator.languages?.[0] || navigator.language || '').toLowerCase();
-  if (nav.startsWith('fa')) return 'fa';
-  if (nav.startsWith('en')) return 'en';
+  // const nav = (navigator.languages?.[0] || navigator.language || '').toLowerCase();
+  // if (nav.startsWith('fa')) return 'fa';
+  // if (nav.startsWith('en')) return 'en';
+  // No saved choice → Persian, the site's primary language, regardless of browser language.
   return defaultLocale;
 }
 
 /**
  * "/" has no content of its own: it forwards to the visitor's saved language,
- * then their browser language, then the default. Without JavaScript the two
+ * otherwise Persian (the site's default). Without JavaScript the two
  * links below still let anyone choose.
  */
 export function LangRedirect() {

@@ -17,7 +17,7 @@ export const siteConfig = {
   // ── آدرس سایت (برای سئو). در GitHub Actions خودکار تنظیم می‌شه.
   siteUrl:
     process.env.NEXT_PUBLIC_SITE_URL ||
-    'https://amirhmohammadi1.github.io',
+    'https://amirhmohammadi3.github.io',
 
   name: {
     fa: 'امیرحسین محمدی',
@@ -30,8 +30,8 @@ export const siteConfig = {
   // ایمیل و شماره الان نمونه‌ست؛ با مقدار واقعی جایگزین کن.
   contact: {
     email: 'your.email@example.com', // TODO: ایمیل واقعی
-    phone: '+98 900 000 0000', // TODO: شماره‌ی واقعی (با کد کشور)
-    telegram: 'mr_amir_developer',
+    phone: '+98 933 861 3606', // TODO: شماره‌ی واقعی (با کد کشور)
+    telegram: 'Ahm_Freelancer',
     linkedin: 'amirhmohammadi', // linkedin.com/in/<این مقدار>
     github: 'AmirHMohammadi1',
   },
