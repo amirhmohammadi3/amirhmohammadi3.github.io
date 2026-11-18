@@ -29,8 +29,8 @@ export const siteConfig = {
   // ── اطلاعات تماس ──────────────────────────────────────────
   // ایمیل و شماره الان نمونه‌ست؛ با مقدار واقعی جایگزین کن.
   contact: {
-    email: 'your.email@example.com', // TODO: ایمیل واقعی
-    phone: '+98 933 861 3606', // TODO: شماره‌ی واقعی (با کد کشور)
+    email: 'A.h.mohammadi1@gmail.com',
+    phone: '+98 933 861 3606',
     telegram: 'Ahm_Freelancer',
     linkedin: 'amirhmohammadi', // linkedin.com/in/<این مقدار>
     github: 'AmirHMohammadi1',
