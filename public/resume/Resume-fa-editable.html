@@ -1,0 +1,105 @@
+<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><title>امیرحسین محمدی — رزومه</title>
+<style>
+@page { size: A4; margin: 0; }
+:root { --ink:#16142b; --soft:#3b3957; --muted:#6a6e86; --acc:#5a3df0; --acc2:#067a94; --line:#e4e2f2; --bg2:#f4f2fc; }
+* { box-sizing:border-box; }
+html,body { margin:0; }
+body { font-family:'Inter','Vazirmatn','Vazir','Segoe UI','Tahoma','DejaVu Sans',Arial,sans-serif; color:var(--ink); font-size:9.4pt; line-height:1.75; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+.ltr { direction:ltr; unicode-bidi:isolate; }
+.band { background:#0d0f18; color:#fff; padding:13mm 14mm 9mm; position:relative; overflow:hidden; }
+.band::before { content:''; position:absolute; inset:0; background:radial-gradient(90mm 60mm at 10% -20%, rgba(143,125,255,.55), transparent 70%), radial-gradient(80mm 60mm at 100% 120%, rgba(45,212,230,.40), transparent 70%); }
+.band > * { position:relative; }
+.band::after { content:''; position:absolute; inset-inline:0; bottom:0; height:1.6mm; background:linear-gradient(90deg,#8f7dff,#2dd4e6); }
+.band h1 { margin:0; font-size:25pt; line-height:1.25; font-weight:800; letter-spacing:-.01em; }
+.band .role { margin-top:1mm; font-size:11.5pt; font-weight:600; color:#7fe6f2; }
+.band .lead { margin:2.2mm 0 0; max-width:150mm; color:#d6d9ea; font-size:9.6pt; }
+.contacts { margin-top:4.5mm; display:flex; flex-wrap:wrap; gap:1.2mm 5mm; font-size:8.3pt; color:#e6e8f5; }
+.contacts span { white-space:nowrap; }
+.body { display:grid; grid-template-columns:1fr 60mm; gap:8mm; padding:8mm 14mm 10mm; }
+section { margin-bottom:6mm; }
+h2 { break-after:avoid; }
+.side section, .now { break-inside:avoid; }
+h2 { margin:0 0 2.6mm; font-size:10.5pt; letter-spacing:0; text-transform:uppercase; color:var(--acc); display:flex; align-items:center; gap:2.5mm; }
+h2::after { content:''; flex:1; height:.3mm; background:var(--line); }
+h3 { margin:0; font-size:10pt; font-weight:700; }
+h4 { margin:0 0 1.3mm; font-size:8.6pt; color:var(--soft); }
+p { margin:.6mm 0 0; color:var(--soft); }
+.muted { color:var(--muted); font-size:8.4pt; }
+.item { margin-bottom:3.6mm; break-inside:avoid; }
+.row { display:flex; justify-content:space-between; gap:4mm; align-items:baseline; }
+.period { color:var(--acc2); font-size:8.4pt; font-weight:600; white-space:nowrap; }
+ul { margin:1.2mm 0 0; padding-inline-start:4.5mm; color:var(--soft); }
+li { margin:.3mm 0; }
+.tags { display:flex; flex-wrap:wrap; gap:1.2mm; margin-top:1.6mm; }
+.svc i { font-weight:600; }
+.tags i { font-style:normal; font-size:7.6pt; padding:.35mm 2.1mm; border-radius:99px; background:var(--bg2); border:.2mm solid var(--line); color:var(--soft); }
+.proj { padding:2.8mm 3.2mm; border:.25mm solid var(--line); border-radius:2.4mm; }
+.proj.feat { border-color:#b9aefc; background:linear-gradient(135deg, #f1eeff, #ecfafd); }
+.proj h3 { font-size:9.6pt; color:var(--acc); }
+.url { margin-top:1.4mm; font-size:7.6pt; color:var(--muted); }
+.side section { margin-bottom:5.2mm; }
+.sk { margin-bottom:3mm; }
+.services { columns:1; padding:0; margin:0; list-style:none; }
+.services li { padding:.9mm 0; border-bottom:.2mm dashed var(--line); }
+.now li { margin:.5mm 0; }
+.side { padding:4mm 4mm; background:var(--bg2); border-radius:3mm; align-self:start; }
+
+.page { width:210mm; height:297mm; position:relative; overflow:hidden; break-after:page; }
+.page:last-child { break-after:auto; }
+.svc-list { display:grid; grid-template-columns:1fr 1fr; gap:1.6mm 6mm; margin:0; padding:0; list-style:none; }
+.svc-list li { position:relative; padding-inline-start:4mm; font-weight:600; font-size:8.8pt; color:var(--ink); }
+.svc-list li::before { content:''; position:absolute; inset-inline-start:0; top:.55em; width:1.6mm; height:1.6mm; border-radius:50%; background:linear-gradient(135deg,#8f7dff,#2dd4e6); }
+.svc-grid { display:grid; grid-template-columns:1fr 1fr; gap:2.4mm; }
+.svcbox { border:.25mm solid var(--line); border-radius:2mm; padding:2mm 2.6mm; break-inside:avoid; }
+.svcbox h3 { font-size:8.8pt; color:var(--acc); }
+.svcbox p { font-size:7.8pt; line-height:1.65; margin-top:.6mm; }
+.top2 { padding:14mm 14mm 6mm; }
+.top2 .mini { color:var(--muted); font-size:8.6pt; letter-spacing:.06em; }
+.top2 h1 { margin:1mm 0 1.5mm; font-size:24pt; line-height:1.3; color:var(--acc); }
+.top2 p { color:var(--muted); }
+.proj-grid { display:grid; grid-template-columns:1fr 1fr; gap:4mm; padding:0 14mm; }
+.proj-grid .proj { margin:0; }
+.cta { position:absolute; inset-inline:0; bottom:0; padding:10mm 14mm 10mm; background:#0d0f18; color:#fff; display:grid; gap:4mm; overflow:hidden; }
+.cta::before { content:''; position:absolute; inset:0; background:radial-gradient(90mm 50mm at 0% 0%, rgba(143,125,255,.5), transparent 70%), radial-gradient(80mm 50mm at 100% 100%, rgba(45,212,230,.35), transparent 70%); }
+.cta > * { position:relative; }
+.cta::after { content:''; position:absolute; inset-inline:0; top:0; height:1.4mm; background:linear-gradient(90deg,#8f7dff,#2dd4e6); }
+.ctah { color:#fff; font-size:15pt; text-transform:none; letter-spacing:0; display:block; margin:0 0 1mm; }
+.ctah::after { display:none; }
+.cta p { color:#d6d9ea; margin:0; }
+
+@media screen { body { background:#cfd0dc; padding:24px 0 60px; } .page { margin:0 auto 24px; box-shadow:0 10px 40px rgba(0,0,0,.28); } [contenteditable]:hover { outline:1px dashed rgba(90,61,240,.45); outline-offset:2px; } [contenteditable]:focus { outline:2px solid #5a3df0; outline-offset:2px; }
+ .toolbar { position:sticky; top:0; z-index:10; display:flex; gap:12px; align-items:center; justify-content:center; padding:10px 16px; background:#0d0f18; color:#e6e8f5; font:600 13px/1.4 Arial,Tahoma,sans-serif; direction:ltr; }
+ .toolbar button { cursor:pointer; border:0; border-radius:999px; padding:8px 18px; background:linear-gradient(120deg,#8f7dff,#2dd4e6); color:#0a0b12; font:700 13px Arial,Tahoma,sans-serif; } }
+@media print { .toolbar { display:none !important; } [contenteditable] { outline:none !important; } }
+</style></head><body spellcheck="false">
+<div class="toolbar"><span>روی هر متن کلیک کن و ویرایشش کن؛ بعد دکمه را بزن</span><button onclick="window.print()">ذخیره به‌صورت PDF / چاپ</button></div>
+<div class="page" contenteditable="true">
+  <div class="band">
+    <h1>امیرحسین محمدی</h1>
+    <div class="role">توسعه‌دهنده Full Stack · فریلنسر · <span class="ltr">۸+</span> سال تجربه</div>
+    <p class="lead">ایده‌ها را به محصول‌های وب سریع، امن و کاربرپسند تبدیل می‌کنم؛ از طراحی رابط کاربری تا بک‌اند، انتشار و پشتیبانی بلندمدت.</p>
+    <div class="contacts"><span class="ltr">✉ your.email@example.com</span><span class="ltr">☎ +98 900 000 0000</span><span class="ltr">Telegram · @mr_amir_developer</span><span class="ltr">linkedin.com/in/amirhmohammadi</span><span class="ltr">github.com/AmirHMohammadi1</span><span class="ltr">amirhmohammadi1.github.io</span></div>
+  </div>
+  <div class="body">
+    <main>
+      <section><h2>خلاصه</h2><p>من امیرحسین هستم؛ توسعه‌دهنده Full Stack و فریلنسر با بیش از ۸ سال سابقه کار مستقل. عاشق خلق تجربه‌های دیجیتال خوب هستم و در تبدیل ایده‌های خلاقانه به محصول واقعی با فناوری‌های روز تخصص دارم.</p><p>مدرک لیسانس مدیریت بازرگانی و تجربه مدیریت پروژه باعث شده فقط به «کد» فکر نکنم؛ به هدف کسب‌وکار، زمان‌بندی، هزینه و تجربه کاربر هم نگاه می‌کنم تا خروجی واقعاً به درد مشتری بخورد.</p></section>
+      <section><h2>تجربه کاری</h2><div class="item"><div class="row"><h3>توسعه‌دهنده Full Stack و فریلنسر</h3><span class="period">بیش از ۸ سال · تا امروز</span></div><p>طراحی، توسعه و پشتیبانی وب‌سایت، پنل مدیریتی و API برای مشتریان مختلف؛ مسئولیت کامل از تحلیل نیاز تا انتشار و نگهداری.</p><ul><li>تحلیل نیاز و تعیین دامنه پروژه</li><li>طراحی و توسعه فرانت‌اند و بک‌اند</li><li>انتشار، پایش و پشتیبانی پس از تحویل</li></ul></div><div class="item"><div class="row"><h3>مدیریت پروژه</h3><span class="period">نقش فعلی</span></div><p>هماهنگی پروژه‌ها، زمان‌بندی و ارتباط بین کارفرما و تیم فنی.</p></div></section>
+      <section><h2>خدمات</h2><ul class="svc-list"><li>توسعه فرانت‌اند</li><li>توسعه بک‌اند و API</li><li>توسعه Full Stack</li><li>طراحی رابط و تجربه کاربری</li><li>طراحی دیتابیس و داده</li><li>امنیت وب</li><li>وردپرس و سایت‌های آماده</li><li>اپلیکیشن موبایل</li><li>سئو فنی و عملکرد</li><li>انتشار و DevOps سبک</li><li>پشتیبانی و نگهداری</li><li>خدمات سخت‌افزار</li></ul></section>
+      <section class="now"><h2>این روزها</h2><ul><li>یادگیری عمیق‌تر Python و Django</li><li>ساخت ابزارها و کتابخانه‌های متن‌باز</li><li>کنجکاوی در هوش مصنوعی و استارتاپ‌ها</li></ul></section>
+    </main>
+    <aside class="side">
+      <section><h2>مهارت‌ها</h2><div class="sk"><h4>فرانت‌اند و موبایل</h4><div class="tags ltr-ish"><i>JavaScript</i><i>TypeScript</i><i>React</i><i>Next.js</i><i>Vue.js</i><i>Nuxt.js</i><i>React Native</i></div></div><div class="sk"><h4>بک‌اند و Full Stack</h4><div class="tags ltr-ish"><i>Node.js</i><i>Express.js</i><i>NestJS</i><i>Python</i><i>Django</i></div></div><div class="sk"><h4>ابزار و پلتفرم</h4><div class="tags ltr-ish"><i>Git</i><i>GitHub</i><i>WordPress</i></div></div><div class="sk"><h4>مهارت‌های تکمیلی</h4><div class="tags ltr-ish"><i>مدیریت پروژه</i><i>مدیریت بازرگانی</i><i>تعمیرات سخت‌افزار موبایل و کامپیوتر</i><i>حل مسئله</i></div></div></section>
+      <section><h2>تحصیلات</h2><div class="item"><h3>لیسانس مدیریت بازرگانی</h3></div></section>
+      <section><h2>مدارک و گواهینامه‌ها</h2><div class="item"><h3>مدرک پایتون</h3><p class="muted">سازمان آموزش فنی و حرفه‌ای کشور</p></div><div class="item"><h3>مدرک تعمیرات سخت‌افزار موبایل و کامپیوتر</h3><p class="muted">سازمان آموزش فنی و حرفه‌ای کشور</p></div></section>
+    </aside>
+  </div>
+</div>
+<div class="page page2" contenteditable="true">
+  <div class="top2"><span class="mini">امیرحسین محمدی</span><h1>پروژه‌های شاخص</h1><p>چند پروژه‌ی متن‌باز از گیت‌هاب من؛ کد همه‌ی آن‌ها قابل بررسی است.</p></div>
+  <div class="proj-grid"><div class="item proj feat"><div class="row"><h3 class="ltr">HR-Management-System</h3></div><p>پلتفرم جامع مدیریت منابع انسانی با Next.js 15 و NestJS 10؛ معماری مدرن، قابلیت‌های پیشرفته و رابط کاربری ساده، شامل مدیریت کارکنان و سایر ماژول‌های سازمانی.</p><div class="tags ltr"><i>Next.js 15</i><i>NestJS 10</i><i>TypeScript</i></div><div class="url ltr">github.com/AmirHMohammadi1/HR-Management-System</div></div><div class="item proj feat"><div class="row"><h3 class="ltr">nexio-Dashboard</h3></div><p>داشبورد مدیریتی مدرن و ریسپانسیو با Next.js 16 و Tailwind CSS 4؛ شامل صفحات داشبورد، تنظیمات، پروفایل، جدول داده، صفحات لندینگ و سیستم احراز هویت بر پایه App Router.</p><div class="tags ltr"><i>Next.js 16</i><i>Tailwind CSS 4</i><i>TypeScript</i></div><div class="url ltr">github.com/AmirHMohammadi1/nexio-Dashboard</div></div><div class="item proj"><div class="row"><h3 class="ltr">NEXTUI</h3></div><p>کتابخانه UI مدرن و واکنش‌گرا برای Next.js 14 به بالا، با مجموعه‌ای از کامپوننت‌های دسترس‌پذیر و پشتیبانی از حالت تیره.</p><div class="tags ltr"><i>Next.js</i><i>UI Library</i><i>TypeScript</i></div><div class="url ltr">github.com/AmirHMohammadi1/NEXTUI</div></div><div class="item proj"><div class="row"><h3 class="ltr">secure-express-auth</h3></div><p>API احراز هویت امن با Express.js، JWT و بهترین روش‌های امنیتی؛ شامل ثبت‌نام، ورود، توکن، هش گذرواژه و اعتبارسنجی ورودی.</p><div class="tags ltr"><i>Express.js</i><i>JWT</i><i>Security</i></div><div class="url ltr">github.com/AmirHMohammadi1/secure-express-auth</div></div><div class="item proj"><div class="row"><h3 class="ltr">Express-LMS</h3></div><p>پلتفرم آموزشی تحت وب با معماری MVC، ساخته‌شده با Node.js، Express و Bootstrap؛ مدیریت دوره‌ها، مدرسان، کاربران و محتوای آموزشی.</p><div class="tags ltr"><i>Node.js</i><i>Express</i><i>MVC</i><i>Bootstrap</i></div><div class="url ltr">github.com/AmirHMohammadi1/Express-LMS</div></div><div class="item proj"><div class="row"><h3 class="ltr">fullstack-learning-playground</h3></div><p>مجموعه‌ای در حال رشد از پروژه‌ها و مینی‌اپ‌ها برای تمرین توسعه وب مدرن؛ GraphQL، TypeScript، REST و بیشتر.</p><div class="tags ltr"><i>GraphQL</i><i>TypeScript</i><i>REST</i></div><div class="url ltr">github.com/AmirHMohammadi1/fullstack-learning-playground</div></div></div>
+  <div class="cta">
+    <div><h2 class="ctah">پروژه‌ای در ذهن دارید؟</h2><p>برای همکاری، مشاوره یا پشتیبانی پروژه‌ات پیام بده؛ سریع جواب می‌دم.</p></div>
+    <div class="contacts"><span class="ltr">✉ your.email@example.com</span><span class="ltr">☎ +98 900 000 0000</span><span class="ltr">Telegram · @mr_amir_developer</span><span class="ltr">linkedin.com/in/amirhmohammadi</span><span class="ltr">github.com/AmirHMohammadi1</span><span class="ltr">amirhmohammadi1.github.io</span></div>
+  </div>
+</div>
+</body></html>
